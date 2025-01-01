@@ -240,6 +240,18 @@ JOIN dim_date d ON CAST(i.invoicedate AS DATE) = d.date;
 
 select * from fact_sales;
 
+DROP TABLE track_staging;
+DROP TABLE artist_staging;
+DROP TABLE album_staging;
+DROP TABLE mediatype_staging;
+DROP TABLE genre_staging;
+DROP TABLE employee_staging;
+DROP TABLE customer_staging;
+DROP TABLE invoice_staging;
+DROP TABLE invoiceline_staging;
+DROP TABLE playlist_staging;
+DROP TABLE playlisttrack_staging;
+
 
 
 
